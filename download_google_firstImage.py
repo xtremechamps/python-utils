@@ -1,8 +1,11 @@
+#Python3
 import requests
 from bs4 import BeautifulSoup
 import json
 from multiprocessing import Pool
 import sys
+
+__author__      = "Devendra Dora"
 
 def downloadImage(args):
     searchq, imgname = args

@@ -3,8 +3,6 @@ import sys,requests,os
 import sendgrid
 from sendgrid.helpers.mail import *
 
-__author__      = "Devendra Dora"
-
 
 mobile_list=['1234567890']
 emails = ['test@perpule.com','test2@perpule.com']
